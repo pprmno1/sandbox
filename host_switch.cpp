@@ -190,7 +190,7 @@ diners::DinersTransactionType ConvertTxToDinersTxType(TransactionType tx_type) {
       break;
 
     case TransactionType::PREAUTH_COMPLETION_OFFLINE:
-      diners_tx_type = diners::DinersTransactionType::SALE_COMPLETION;
+      diners_tx_type = diners::DinersTransactionType::PREAUTH_COMPLETION_OFFLINE;
       break;
 
     default:     // TODO: other types

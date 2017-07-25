@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?teliumProject version="8.0"?><?ingedev version="8.8.0.2"?><projectDescription activeConfig="GNU_ARM_DEBUG_T2" enableUsingCpp="true" projectType="LIB">
+<virtualFolders>
+<virtualFolder name="Other Files" sources="false"/>
+<virtualFolder name="Source Files" sources="true">
+<file generated="false" name="Src/protocol.cpp" parentProject=""/>
+<file generated="false" name="Src/sale_message.cpp" parentProject=""/>
+<file generated="false" name="Src/void_message.cpp" parentProject=""/>
+<file generated="false" name="Src/refund_message.cpp" parentProject=""/>
+<file generated="false" name="Src/preauth_message.cpp" parentProject=""/>
+<file generated="false" name="Src/reversal_message.cpp" parentProject=""/>
+<file generated="false" name="Src/offline_sale_message.cpp" parentProject=""/>
+<file generated="false" name="Src/batch_upload_message.cpp" parentProject=""/>
+<file generated="false" name="Src/settlement_message.cpp" parentProject=""/>
+<file generated="false" name="Src/tip_adjust_message.cpp" parentProject=""/>
+<file generated="false" name="Src/diners_transaction.cpp" parentProject=""/>
+<file generated="false" name="Src/diners_host.cpp" parentProject=""/>
+<file generated="false" name="Src/diners_utils.cpp" parentProject=""/>
+<file generated="false" name="Src/tc_upload_message.cpp" parentProject=""/>
+<file generated="false" name="Src/test_transaction_message.cpp" parentProject=""/>
+<file generated="false" name="Src/key_download_message.cpp" parentProject=""/>
+<file generated="false" name="Src/sale_completion_message.cpp" parentProject=""/>
+</virtualFolder>
+<archiveFilesVirtualFolder name="Archive Files"/>
+</virtualFolders>
+<exportedHeaders>
+<exportedHeader name="ExpInc"/>
+</exportedHeaders>
+<configs>
+<config archiverCustomOpts="" asmCpuMode="thumb" binaryName="diners_host" compiler="gnuArm47xbm" compilerCustomOpt="-std=c++11" cpuMode="thumb" crc="false" enableCPPExceptions="false" gnu4StackProtectionMode="ProPolice" gnuOptim="-O0" hardware="Telium 2" name="GNU_ARM_DEBUG_T2" sign="false" zip="false">
+<userIncs>
+<userInc value="ExpInc"/>
+<userInc value="Inc"/>
+</userIncs>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+<teliumCompatibilities/>
+<prebuild command="" description=""/>
+<postbuild command="" description=""/>
+<userSystemLibrariesOptions/>
+<userAsmDefines/>
+<externalSchemes/>
+<teliumAddonPackages>
+<teliumAddonPackage package="APAC_Addon" version="1.6.55"/>
+</teliumAddonPackages>
+<teliumSdkPackages>
+<teliumSdkPackage package="Telium SDK" version="9.32.2.01"/>
+</teliumSdkPackages>
+<dataFiles/>
+<userAsmIncs/>
+<userSystemLibraries/>
+</config>
+<config archiverCustomOpts="" asmCpuMode="thumb" binaryName="amex_host" compiler="gnuArm47xbm" compilerCustomOpt="-std=c++11" cpuMode="thumb" crc="false" enableCPPExceptions="false" gnu4StackProtectionMode="ProPolice" gnuOptim="-O0" hardware="Telium 2" name="GNU_ARM_DEBUG_T2_SOURCELIB" sign="false" zip="false">
+<userIncs>
+<userInc value="${workspace_loc:/stdx/ExpInc}"/>
+<userInc value="${workspace_loc:/cppbase/ExpInc}"/>
+<userInc value="${workspace_loc:/iso8583/ExpInc}"/>
+<userInc value="${workspace_loc:/comms_client/ExpInc}"/>
+<userInc value="ExpInc"/>
+<userInc value="Inc"/>
+</userIncs>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+<teliumCompatibilities/>
+<prebuild command="" description=""/>
+<postbuild command="" description=""/>
+<userSystemLibrariesOptions/>
+<userAsmDefines/>
+<externalSchemes/>
+<teliumSdkPackages>
+<teliumSdkPackage package="Telium SDK" version="9.32.2.01"/>
+</teliumSdkPackages>
+<userAsmIncs/>
+<userSystemLibraries/>
+</config>
+<config archiverCustomOpts="" asmCpuMode="thumb" binaryName="amex_host" compiler="gnuArm47v7a" compilerCustomOpt="-std=c++11" cpuMode="thumb" crc="false" enableCPPExceptions="true" gcov="false" gnuOptim="-O0" gprof="false" hardware="Telium Tetra" name="GNU_ARM_DEBUG_TETRA" sign="false" zip="false">
+<userIncs>
+<userInc value="ExpInc"/>
+<userInc value="Inc"/>
+</userIncs>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+<teliumCompatibilities/>
+<prebuild command="" description=""/>
+<postbuild command="" description=""/>
+<userAsmIncs/>
+<userSystemLibrariesOptions/>
+<userAsmDefines/>
+<externalSchemes/>
+<packageIncs>
+<packageInc package="APAC_Addon" version="1.6.55"/>
+</packageIncs>
+<teliumAddonPackages>
+<teliumAddonPackage package="APAC_Addon" version="1.6.55"/>
+</teliumAddonPackages>
+<teliumSdkPackages>
+<teliumSdkPackage package="Telium SDK" version="11.12.1.01"/>
+</teliumSdkPackages>
+</config>
+<config archiverCustomOpts="" asmCpuMode="thumb" binaryName="amex_host" compiler="gnuArm47v7a" compilerCustomOpt="-std=c++11" cpuMode="thumb" crc="false" enableCPPExceptions="true" gcov="false" gnuOptim="-O0" gprof="false" hardware="Telium Tetra" name="GNU_ARM_DEBUG_TETRA_SOURCELIB" sign="false" zip="false">
+<userIncs>
+<userInc value="${workspace_loc:/stdx/ExpInc}"/>
+<userInc value="${workspace_loc:/cppbase/ExpInc}"/>
+<userInc value="${workspace_loc:/iso8583/ExpInc}"/>
+<userInc value="${workspace_loc:/comms_client/ExpInc}"/>
+<userInc value="ExpInc"/>
+<userInc value="Inc"/>
+</userIncs>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+<teliumCompatibilities/>
+<prebuild command="" description=""/>
+<postbuild command="" description=""/>
+<userAsmIncs/>
+<userSystemLibrariesOptions/>
+<userAsmDefines/>
+<externalSchemes/>
+<teliumSdkPackages>
+<teliumSdkPackage package="Telium SDK" version="11.12.1.01"/>
+</teliumSdkPackages>
+</config>
+<config archiverCustomOpts="" asmCpuMode="thumb" binaryName="amex_host" compiler="gnuArm47xbm" compilerCustomOpt="-std=c++11" cpuMode="thumb" enableCPPExceptions="true" gnu4StackProtectionMode="ProPolice" gnuOptim="-Os" hardware="Telium 2" name="GNU_ARM_RELEASE_T2">
+<userIncs>
+<userInc value="ExpInc"/>
+<userInc value="Inc"/>
+</userIncs>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+<prebuild command="" description=""/>
+<postbuild command="" description=""/>
+<teliumCompatibilities/>
+<teliumAddonPackages>
+<teliumAddonPackage package="APAC_Addon" version="1.6.55"/>
+</teliumAddonPackages>
+<teliumSdkPackages>
+<teliumSdkPackage package="Telium SDK" version="9.32.2.01"/>
+</teliumSdkPackages>
+<userSystemLibrariesOptions/>
+<userAsmDefines/>
+<externalSchemes/>
+</config>
+<config archiverCustomOpts="" asmCpuMode="thumb" binaryName="amex_host" compiler="gnuArm47v7a" compilerCustomOpt="-std=c++11" cpuMode="thumb" enableCPPExceptions="true" gcov="false" gnuOptim="-Os" gprof="false" hardware="Telium Tetra" name="GNU_ARM_RELEASE_TETRA">
+<userIncs>
+<userInc value="ExpInc"/>
+<userInc value="Inc"/>
+</userIncs>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+<prebuild command="" description=""/>
+<postbuild command="" description=""/>
+<teliumCompatibilities/>
+<teliumAddonPackages>
+<teliumAddonPackage package="APAC_Addon" version="1.6.55"/>
+</teliumAddonPackages>
+<userAsmIncs/>
+<userSystemLibrariesOptions/>
+<userAsmDefines/>
+<externalSchemes/>
+<teliumSdkPackages>
+<teliumSdkPackage package="Telium SDK" version="11.12.1.01"/>
+</teliumSdkPackages>
+</config>
+</configs>
+<groupConfigs/>
+</projectDescription>
