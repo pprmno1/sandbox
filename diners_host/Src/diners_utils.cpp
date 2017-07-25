@@ -53,7 +53,7 @@ std::string GetPosEntryMode(types::PosEntryMode & pos_entry_mode) {
 	if (pos_entry_mode == types::PosEntryMode::FALLBACK_MANUAL)
 		kPosEntryMode = "8";  // TODO: to check
 	else if (pos_entry_mode == types::PosEntryMode::FALLBACK_MAGSTRIPE)
-	    kPosEntryMode = "9";  // TODO: to check
+	    kPosEntryMode = "8";  // TODO: to check
     else
     	kPosEntryMode = "0";  // TODO: to check
 
